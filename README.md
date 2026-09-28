@@ -6,7 +6,7 @@ A [Claude Code](https://code.claude.com) plugin that connects Claude to the Igni
 
 | Component | Type | Description |
 | --- | --- | --- |
-| `igniteui-cli` | MCP server | Runs [`@igniteui/mcp-server`](https://www.npmjs.com/package/@igniteui/mcp-server): component lists, docs search, API reference, and project setup guides. |
+| `igniteui-cli` | MCP server | Runs the [Ignite UI CLI](https://www.npmjs.com/package/igniteui-cli) MCP server (`ig mcp`): component lists, docs search, API reference, and project setup guides. |
 | `igniteui-theming` | MCP server | Runs [`igniteui-theming`](https://www.npmjs.com/package/igniteui-theming): palettes, typography, elevations, component themes, and design tokens. |
 | `igniteui-design-system` | Skill | Tells Claude to use both servers together, check APIs and tokens against the servers, and keep each framework's syntax separate. |
 
@@ -111,7 +111,7 @@ In the Claude Code session, run `/reload-plugins` to pick up changes you've made
 2. **Start each server by hand** to see any startup errors:
 
    ```bash
-   npx -y @igniteui/mcp-server
+   npx -y igniteui-cli mcp
    npx -y igniteui-theming igniteui-theming-mcp
    ```
 
