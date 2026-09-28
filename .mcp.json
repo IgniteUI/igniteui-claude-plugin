@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "igniteui": {
+    "igniteui-cli": {
       "command": "npx",
       "args": ["-y", "@igniteui/mcp-server"]
     },

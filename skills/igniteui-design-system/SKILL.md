@@ -1,4 +1,6 @@
 ---
+license: MIT
+name: igniteui-design-system
 description: Build framework-correct Ignite UI design output by combining documentation and theming MCP tools.
 ---
 
@@ -11,7 +13,7 @@ Primary goals:
 
 Workflow:
 1. Detect the framework from user context; if unclear, ask one concise clarification question.
-2. Use igniteui MCP documentation and API tools to confirm component names, capabilities, and framework-specific usage.
+2. Use Ignite UI MCP documentation and API tools to confirm component names, capabilities, and framework-specific usage.
 3. Use igniteui-theming MCP tools to generate palettes, tokens, and theme-level customization.
 4. Combine both results into implementation guidance that references valid component APIs and valid token names.
 5. If requested output is ambiguous, provide one safe default and one alternative.
