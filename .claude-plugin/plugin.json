@@ -8,5 +8,8 @@
   },
   "license": "MIT",
   "repository": "https://github.com/IgniteUI/igniteui-claude-plugin",
-  "homepage": "https://www.infragistics.com/ai-assisted-app-development"
+  "homepage": "https://www.infragistics.com/ai-assisted-app-development",
+  "privacyPolicyUrl": "https://www.infragistics.com/legal/privacy",
+  "supportUrl": "https://www.infragistics.com/support",
+  "termsOfServiceUrl": "https://www.infragistics.com/legal/terms-of-use"
 }
