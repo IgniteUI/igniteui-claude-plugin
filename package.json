@@ -1,0 +1,23 @@
+{
+  "name": "igniteui-mcp-tools",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Local Ignite UI MCP tools for Claude Code, including component docs and theming workflows.",
+  "author": {
+    "name": "Infragistics",
+    "url": "https://github.com/IgniteUI"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgniteUI/igniteui-claude-plugin.git"
+  },
+  "homepage": "https://www.infragistics.com/ai-assisted-app-development",
+  "bugs": {
+    "url": "https://github.com/IgniteUI/igniteui-cli"
+  },
+  "dependencies": {
+    "@igniteui/mcp-server": "15.9.0",
+    "igniteui-theming": "29.1.1"
+  }
+}

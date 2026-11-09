@@ -2,11 +2,11 @@
   "mcpServers": {
     "igniteui-cli": {
       "command": "npx",
-      "args": ["-y", "igniteui-cli@15.8.1", "mcp"]
+      "args": ["-y", "@igniteui/mcp-server@15.9.0"]
     },
     "igniteui-theming": {
       "command": "npx",
-      "args": ["-y", "igniteui-theming@29.0.0", "igniteui-theming-mcp"]
+      "args": ["-y", "igniteui-theming@29.1.1", "igniteui-theming-mcp"]
     }
   }
 }
